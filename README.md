@@ -1,5 +1,5 @@
 # creativeCodeOFX
-## Openframeworks Studies from (Dan Buzzo channel)[https://www.youtube.com/c/danbuzzo] Thank you Dan!! 
+## Openframeworks Studies from **Dan Buzzo channel**[ https://www.youtube.com/c/danbuzzo ] Thank you Dan!! 
 
 ### colored bubbles
 #### bubbles dancing in the window and changing colors
