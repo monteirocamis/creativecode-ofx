@@ -15,3 +15,12 @@
 #### crazy lines, drawing randomly 
 
 ![image](https://user-images.githubusercontent.com/26682838/185732458-a9aeac4e-c64a-483b-8fac-63174e9c0886.png)
+
+### sine waves - pride smokes , smoke 
+#### circles making a smoke feeling from up to down
+![image](https://user-images.githubusercontent.com/26682838/185770651-b08a2363-45a9-40dd-8558-97a78ea7cdf6.png)
+![image](https://user-images.githubusercontent.com/26682838/185770655-d1e2f6b7-2899-47e4-add9-e6964a94fcc9.png)
+
+###
+####
+
