@@ -17,7 +17,7 @@ void ofApp::draw(){
 	for (int x = 1; x < 40; x++) {
 
 		for(int i = 0; i < 900; i += 5) {
-//with  fizzi time
+//with shake time
 			//ofSetCircleResolution(53 + 50 * sin(i *0.001 + time  )); // makes sure the smallest resolution is 3side (for triangles)
 
 			ofSetColor(
@@ -31,21 +31,25 @@ void ofApp::draw(){
 				50 + i,
 				50 + 40 *sin(i * 0.005 + time + x));
 
+
+
 /* simple smoke flow
 	
 			ofDrawCircle(ofGetWidth() / 2 + 100 *
 				sin(i * 0.01 + time ), i, 50 + 40 *
 				sin(i * 0.005 + time));*/
 
+
+
+
+
 //meteor centered , @danbuzzo  
-//   ofDrawCircle( ofGetWidth()/2 , i, 100 );
+			//   ofDrawCircle( ofGetWidth()/2 , i, 100 );
 
 //colored smoke	,  @danbuzzo  
-
-//    ofDrawCircle( ofGetWidth()/2 + 100 * sin( i * 0.01 + time ), i , 50 +  40 * sin( i * 0.005 + time  ) ) ;
+			//    ofDrawCircle( ofGetWidth()/2 + 100 * sin( i * 0.01 + time ), i , 50 +  40 * sin( i * 0.005 + time  ) ) ;
 
 //from left side ,  @danbuzzo 
-
 			//ofDrawSphere(50 * x + 100 * sin( i * 0.01 + time + x), 50 * x + 100 * sin( i * 0.01 + time + x), 50 + i , 50 +  40 * sin( i * 0.005 + time + x) ) ; // draw spheres in 3D
 
 
