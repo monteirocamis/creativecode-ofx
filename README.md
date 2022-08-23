@@ -22,3 +22,8 @@
 #### rectangles dancing in circles always from the center or in the view of circles , feels like a marbles in a game
 ![hipnotic starts - rect](https://user-images.githubusercontent.com/26682838/185772118-8ce9b31b-95c2-46b8-9fc4-c7cc5c78d051.png)
 ![hipnotic marble balls](https://user-images.githubusercontent.com/26682838/185772117-a1799e55-fa0d-49f7-b81a-886541b7746e.png)
+
+###Vanishing points study and my dancing chess
+### Horizontal lines, moving in a vertical way and a random number of vertical lines, moving in a horizontal way.
+![antimodular lines](https://user-images.githubusercontent.com/26682838/186081886-673e7342-37a1-4bc1-af26-e70d32dd5d0c.png)
+![dancing chess](https://user-images.githubusercontent.com/26682838/186081891-f5935cad-e3d6-4012-bc83-e24638c8cc42.png)
