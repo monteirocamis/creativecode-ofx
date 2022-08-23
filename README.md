@@ -28,7 +28,7 @@
 ![antimodular lines](https://user-images.githubusercontent.com/26682838/186081886-673e7342-37a1-4bc1-af26-e70d32dd5d0c.png)
 ![dancing chess](https://user-images.githubusercontent.com/26682838/186081891-f5935cad-e3d6-4012-bc83-e24638c8cc42.png)
 
-## Stairs
-### Triangle loop, making the feeling to going down
-![triangle loop](https://user-images.githubusercontent.com/26682838/186088796-8c87a66f-3815-4bbe-838c-ccde641c374e.png)
+## Stairs 
+### Triangle loop, making the feeling to going down in a stair
+![stair](https://user-images.githubusercontent.com/26682838/186100665-3bdeb039-d362-4c56-9de6-762234c7717a.png)
 
