@@ -2,7 +2,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetFrameRate(5);
+   ofBackground(255, 255, 255); 
+   ofSetColor(0, 0, 0 , 90);
 }
 
 //--------------------------------------------------------------
@@ -13,22 +14,15 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofTranslate(ofGetWidth() / 2, ofGetHeight() / 2);
-    ofNoFill();
     ofSetLineWidth(2);
     ofSetRectMode(OF_RECTMODE_CENTER);
 
-
-
-        for (int i = 0; i < 50; i++) {
-            ofRotateDeg(ofGetElapsedTimef());
+    for (int i = 1; i < 1000; i++) {
+         
+            ofRotateDeg(ofGetElapsedTimef() + 20 );
             ofScale(0.9);
-            ofDrawRectangle(0, 0, 500, 500);
-
-            for (int j = 0; j < 50; j++) {
-            
-
-            }
-        }
+            ofDrawRectangle(ofGetWidth() / 2 , ofGetHeight() / 2, ofGetWidth(), ofGetHeight());
+    }
  
 }
 
