@@ -32,3 +32,13 @@
 ### Triangle loop, making the feeling to going down in a stair
 ![stair](https://user-images.githubusercontent.com/26682838/186100665-3bdeb039-d362-4c56-9de6-762234c7717a.png)
 
+
+## polyline cam
+### camera with lines that moves in movement
+![polyline cam](https://user-images.githubusercontent.com/26682838/186334113-3dd287ea-a0ac-4c07-981d-ab506294bb74.png)
+
+
+## points cam
+### camera with points that moves in movement
+![webcamPoints](https://user-images.githubusercontent.com/26682838/186334102-96eae42a-7294-44f4-bcdf-3907c1bfd667.png)
+
