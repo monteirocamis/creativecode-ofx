@@ -42,3 +42,8 @@
 ### camera with points that moves in movement
 ![webcamPoints](https://user-images.githubusercontent.com/26682838/186334102-96eae42a-7294-44f4-bcdf-3907c1bfd667.png)
 
+
+## particle system, dan buzzo
+### particle system using mouse click with color changing 
+![image](https://user-images.githubusercontent.com/26682838/186348420-676b2bbf-69c3-4917-b61b-462006a6aff8.png)
+
