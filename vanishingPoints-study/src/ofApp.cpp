@@ -2,9 +2,9 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-	ofSetWindowTitle("Vanisching points - antimodular studies");
-	ofBackground(255, 255, 255);
-	ofSetFrameRate( 5);
+    ofSetWindowTitle("Vanisching points - antimodular studies");
+    ofBackground(255, 255, 255);
+    ofSetFrameRate( 5);
 
 }
 
@@ -15,56 +15,56 @@ void ofApp::update() {
 
 //--------------------------------------------------------------
 void ofApp::draw() {
-	
-	ofColor myDrawColor;
-	myDrawColor.setHsb(0, 0, 0, ofRandom(90) );
-	ofSetColor( myDrawColor );
+    
+    ofColor myDrawColor;
+    myDrawColor.setHsb(0, 0, 0, ofRandom(90) );
+    ofSetColor( myDrawColor );
 
-	ofSetLineWidth(5);
-	for (int i = 0; i < 120; i++) {
+    ofSetLineWidth(5);
+    for (int i = 0; i < 120; i++) {
 
-		ofColor myDrawColor;
-		myDrawColor.setHsb(0, 0, 0, ofRandom(80));
-		ofSetColor(myDrawColor);
+        ofColor myDrawColor;
+        myDrawColor.setHsb(0, 0, 0, ofRandom(80));
+        ofSetColor(myDrawColor);
 
-		x1 = 1;
-		y1 = ofRandom( ofGetHeight() );
-		x2 = ofGetWidth(); 
-		y2 = y1;
+        horizontalX1 = 1;
+        horizontalY1 = ofRandom( ofGetHeight() );
+        horizontalX2 = ofGetWidth();
+        horizontalY2 = horizontalY1;
 
-		ofDrawLine(x1, y1, x2, y2);
+        ofDrawLine(horizontalX1, horizontalY1, horizontalX2, horizontalY2);
 
-	}
-	for (int j = 0; j < 10; j++) {
-		ofColor myDrawColor;
-		myDrawColor.setHsb(0, 0, 0, ofRandom(80));
-		ofSetColor(myDrawColor);
+    }
+    for (int j = 0; j < 10; j++) {
+        ofColor myDrawColor;
+        myDrawColor.setHsb(0, 0, 0, ofRandom(80));
+        ofSetColor(myDrawColor);
 
-		verticalx1 = ofRandom( ofGetWidth() ) ;
-		verticaly1 = 1;
-		verticalx2 = verticalx1 + ofRandom(300);
-		verticaly2 = ofGetHeight();
+        verticalX1 = ofRandom( ofGetWidth() ) ;
+        verticalY1 = 1;
+        verticalX2 = verticalX1 + ofRandom(300);
+        verticalY2 = ofGetHeight();
 
-		ofDrawLine(verticalx1, verticaly1, verticalx2 , verticaly2);
-	}
+        ofDrawLine(verticalX1, verticalY1, verticalX2 , verticalY2);
+    }
 
-	for (int h = 0; h < 30; h++) {
-		ofColor myDrawColor;
-		myDrawColor.setHsb(0, 0, 0, ofRandom(80));
-		ofSetColor(myDrawColor);
+    for (int h = 0; h < 30; h++) {
+        ofColor myDrawColor;
+        myDrawColor.setHsb(0, 0, 0, ofRandom(80));
+        ofSetColor(myDrawColor);
 
-		anotherVerticalx1 = ofRandom(ofGetWidth());
-		anotherVerticaly1 = 1;
-		anotherVerticalx2 = anotherVerticalx1 - ofRandom(300);
-		anotherVerticaly2 = ofGetHeight();
+        anotherVerticalX1 = ofRandom(ofGetWidth());
+        anotherVerticalY1 = 1;
+        anotherVerticalX2 = anotherVerticalX1 - ofRandom(300);
+        anotherVerticalY2 = ofGetHeight();
 
-		ofDrawLine(anotherVerticalx1, anotherVerticaly1, anotherVerticalx2, anotherVerticaly2);
-	}
+        ofDrawLine(anotherVerticalX1, anotherVerticalY1, anotherVerticalX2, anotherVerticalY2);
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key) {
-	if (key == 'f') {
-		ofToggleFullscreen();
-	}
+    if (key == 'f') {
+        ofToggleFullscreen();
+    }
 }
